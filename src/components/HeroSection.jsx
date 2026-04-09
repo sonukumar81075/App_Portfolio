@@ -134,15 +134,16 @@ const HeroSection = () => {
             </motion.div>
           </div>
         </div>
-        <div className="w-full h-[0.5px] items-center bg-[var(--surface)] flex justify-center">
-          <div className="h-[0.5px] bg-[var(--border)] w-7xl"></div>
+        <div className="w-full h-[0.5px] items-center bg-[var(--surface)] flex justify-center"> 
         </div>
       </section>
+      <div className=" sm:hidden block">
       <Features />
       <Skills />
       <Experience />
       <Project />
       <Contact />
+      </div>
     </>
   );
 };

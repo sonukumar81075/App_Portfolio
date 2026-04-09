@@ -59,7 +59,8 @@ body {
 
 @media (min-width: 768px) {
   .section-shell {
-    min-height: auto;
+    min-height: 100vh;
+    justify-content: center;
     gap: 2rem;
     padding-top: 64px;
     padding-bottom: 40px;

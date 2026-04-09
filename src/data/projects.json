@@ -7,14 +7,63 @@
   "items": [
     {
       "id": "project-1",
+      "title": "StopDelay · Flight Compensation",
+      "description": "Built conversion-driven landing and intake journeys for airline delay/cancellation claims. Delivered Spanish-first UX, clear eligibility flow, trust signals for EC261/Montreal compliance, and high-clarity CTAs for stronger lead conversion.",
+      "projectUrl": "https://www.stopdelay.com/en",
+      "techStack": [
+        {
+          "name": "Next.js",
+          "url": "https://nextjs.org"
+        },
+        {
+          "name": "Tailwind CSS",
+          "url": "https://tailwindcss.com"
+        },
+        {
+          "name": "TypeScript",
+          "url": "https://www.typescriptlang.org"
+        },
+        {
+          "name": "i18n",
+          "url": "https://www.i18next.com"
+        }
+      ],
+      "images": [
+        "/images/project4/Screenshot_1.png",
+        "/images/project4/Screenshot_2.png",
+        "/images/project4/Screenshot_3.png",
+        "/images/project4/Screenshot_4.png",
+        "/images/project4/Screenshot_5.png",
+        "/images/project4/Screenshot_6.png",
+        "/images/project4/Screenshot_7.png",
+        "/images/project4/Screenshot_8.png",
+        "/images/project4/Screenshot_9.png",
+        "/images/project4/Screenshot_10.png",
+        "/images/project4/Screenshot_11.png"
+      ]
+    },
+    {
+      "id": "project-1",
       "title": "Bidvoty · Freelancer Bidding Platform",
       "description": "Built a marketplace where clients post projects and freelancers submit bids with role-based workflows. Implemented structured listing pages, project-detail flows, bid management, and responsive dashboards to improve engagement and conversion.",
       "projectUrl": "https://app.bidvoty.space/",
       "techStack": [
-        { "name": "React", "url": "https://react.dev" },
-        { "name": "Node.js", "url": "https://nodejs.org" },
-        { "name": "Tailwind CSS", "url": "https://tailwindcss.com" },
-        { "name": "MongoDB", "url": "https://www.mongodb.com" }
+        {
+          "name": "React",
+          "url": "https://react.dev"
+        },
+        {
+          "name": "Node.js",
+          "url": "https://nodejs.org"
+        },
+        {
+          "name": "Tailwind CSS",
+          "url": "https://tailwindcss.com"
+        },
+        {
+          "name": "MongoDB",
+          "url": "https://www.mongodb.com"
+        }
       ],
       "images": [
         "/images/project1/Screenshot_3.png",
@@ -34,10 +83,22 @@
       "description": "Developed a real-estate platform for property discovery, filtering, detail pages, and lead capture. Improved listing readability, mobile responsiveness, and page-level performance to support better user retention and inquiry quality.",
       "projectUrl": "https://neotericproperties.in/",
       "techStack": [
-        { "name": "React", "url": "https://react.dev" },
-        { "name": "Next.js", "url": "https://nextjs.org" },
-        { "name": "Tailwind CSS", "url": "https://tailwindcss.com" },
-        { "name": "TypeScript", "url": "https://www.typescriptlang.org" }
+        {
+          "name": "React",
+          "url": "https://react.dev"
+        },
+        {
+          "name": "Next.js",
+          "url": "https://nextjs.org"
+        },
+        {
+          "name": "Tailwind CSS",
+          "url": "https://tailwindcss.com"
+        },
+        {
+          "name": "TypeScript",
+          "url": "https://www.typescriptlang.org"
+        }
       ],
       "images": [
         "/images/project2/Screenshot_1.png",
@@ -57,10 +118,22 @@
       "description": "Engineered a clinic operations dashboard with appointment queues, assessment scheduling, and HIPAA-aware patient-provider workflows. Added KPI visibility, status tracking, and quick operational actions to improve day-to-day efficiency.",
       "projectUrl": "https://caringai.bidvoty.space",
       "techStack": [
-        { "name": "Next.js", "url": "https://nextjs.org" },
-        { "name": "Tailwind CSS", "url": "https://tailwindcss.com" },
-        { "name": "TypeScript", "url": "https://www.typescriptlang.org" },
-        { "name": "Node.js", "url": "https://nodejs.org" }
+        {
+          "name": "Next.js",
+          "url": "https://nextjs.org"
+        },
+        {
+          "name": "Tailwind CSS",
+          "url": "https://tailwindcss.com"
+        },
+        {
+          "name": "TypeScript",
+          "url": "https://www.typescriptlang.org"
+        },
+        {
+          "name": "Node.js",
+          "url": "https://nodejs.org"
+        }
       ],
       "images": [
         "/images/project3/Screenshot_1.png",
@@ -75,31 +148,6 @@
         "/images/project3/Screenshot_10.png",
         "/images/project3/Screenshot_11.png",
         "/images/project3/Screenshot_12.png"
-      ]
-    },
-    {
-      "id": "project-4",
-      "title": "StopDelay · Flight Compensation",
-      "description": "Built conversion-driven landing and intake journeys for airline delay/cancellation claims. Delivered Spanish-first UX, clear eligibility flow, trust signals for EC261/Montreal compliance, and high-clarity CTAs for stronger lead conversion.",
-      "projectUrl": "https://www.stopdelay.com/en",
-      "techStack": [
-        { "name": "Next.js", "url": "https://nextjs.org" },
-        { "name": "Tailwind CSS", "url": "https://tailwindcss.com" },
-        { "name": "TypeScript", "url": "https://www.typescriptlang.org" },
-        { "name": "i18n", "url": "https://www.i18next.com" }
-      ],
-      "images": [
-        "/images/project4/Screenshot_1.png",
-        "/images/project4/Screenshot_2.png",
-        "/images/project4/Screenshot_3.png",
-        "/images/project4/Screenshot_4.png",
-        "/images/project4/Screenshot_5.png",
-        "/images/project4/Screenshot_6.png",
-        "/images/project4/Screenshot_7.png",
-        "/images/project4/Screenshot_8.png",
-        "/images/project4/Screenshot_9.png",
-        "/images/project4/Screenshot_10.png",
-        "/images/project4/Screenshot_11.png"
       ]
     }
   ]
