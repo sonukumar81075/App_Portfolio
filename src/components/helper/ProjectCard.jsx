@@ -48,11 +48,11 @@ export default function ProjectCard({
             {(techStack.length
               ? techStack
               : [
-                  { name: "React", url: "https://react.dev" },
-                  { name: "Node.js", url: "https://nodejs.org" },
-                  { name: "Tailwind CSS", url: "https://tailwindcss.com" },
-                  { name: "MongoDB", url: "https://www.mongodb.com" },
-                ]
+                { name: "React", url: "https://react.dev" },
+                { name: "Node.js", url: "https://nodejs.org" },
+                { name: "Tailwind CSS", url: "https://tailwindcss.com" },
+                { name: "MongoDB", url: "https://www.mongodb.com" },
+              ]
             ).map((tech, index) => {
               const techName = typeof tech === "string" ? tech : tech.name;
               const techUrl = typeof tech === "string" ? null : tech.url;
@@ -82,11 +82,18 @@ export default function ProjectCard({
                 href={projectUrl}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="app-btn-primary px-3 py-2 rounded-lg text-[13px] sm:text-sm font-medium"
+                className="app-btn-primary px-3 py-2 rounded-lg text-[13px] sm:text-sm font-medium flex items-center justify-between gap-2 relative overflow-hidden"
               >
-                Live Demo
+                <span>Live Demo</span>
+
+                {/* Animated Dot */}
+                <span className="relative flex items-center justify-center">
+                  <span className="absolute w-4 h-4 rounded-full bg-[var(--accent)] opacity-30 animate-ping"></span>
+                  <span className="w-2.5 h-2.5 rounded-full bg-[var(--accent)] shadow-md"></span>
+                </span>
               </a>
             )}
+
             {githubUrl && (
               <a
                 href={githubUrl}

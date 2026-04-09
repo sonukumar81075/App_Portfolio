@@ -34,7 +34,7 @@ export default function Project() {
           />
         ))}
 
-        <div className="mt-6 sm:mt-12 flex flex-wrap gap-3 sm:gap-4 items-center">
+        {/* <div className="mt-6 sm:mt-12 flex flex-wrap gap-3 sm:gap-4 items-center">
           <Link
             to="/cv"
             className="app-btn-primary px-4 py-2 rounded-xl sm:rounded-lg transition text-[14px] sm:text-sm font-semibold"
@@ -48,7 +48,7 @@ export default function Project() {
           >
             Download CV
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
