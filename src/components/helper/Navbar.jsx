@@ -209,7 +209,7 @@ const Navbar = ({ theme = "dark", onToggleTheme }) => {
             <button
               onClick={toggleMenu}
               aria-label="Open menu"
-              className="flex h-13 w-13 items-center justify-center rounded-full bg-[var(--surface-soft)] text-[#3559d6] border border-[var(--border)] shadow-[0_6px_14px_rgba(0,0,0,0.16)] transition-all duration-200 active:scale-95"
+              className="flex h-13 w-13 items-center justify-center rounded-full bg-[var(--surface-soft)] text-[#eab308] border border-[#eab308] shadow-[0_6px_14px_rgba(0,0,0,0.16)] transition-all duration-200 active:scale-95"
             >
               <RiApps2Line className="text-[20px]" />
             </button>
