@@ -38,7 +38,7 @@ const mobileQuickNavItems = [
   { path: "/experience", label: "About" },
   { path: "/contact", label: "Contact" },
 ];
-
+ 
 const Navbar = ({ theme = "dark", onToggleTheme }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
@@ -181,7 +181,7 @@ const Navbar = ({ theme = "dark", onToggleTheme }) => {
 
       {/* Mobile Sticky Bar */}
       <div
-        className={`md:hidden fixed bottom-0 left-0 right-0 z-50 w-full bg-[var(--surface)] rounded-t-[1.25rem] px-3 py-2.5 shadow-[0_-8px_22px_rgba(0,0,0,0.2)] border-t border-[var(--border)] transition-opacity duration-300 ${
+        className={`md:hidden fixed bottom-0 left-0 right-0 z-50 w-full bg-[var(--surface)] rounded-t-[1.25rem] px-3 py-3.5 shadow-[0_-8px_22px_rgba(0,0,0,0.2)] border-t border-[var(--border)] transition-opacity duration-300 ${
           isMenuOpen ? "opacity-0 pointer-events-none" : "opacity-100"
         }`}
       >
