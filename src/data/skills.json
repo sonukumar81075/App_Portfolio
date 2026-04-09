@@ -1,10 +1,10 @@
 {
   "header": {
     "eyebrow": "My Skills",
-    "title": "Populer Skills & Experience",
+    "title": "Popular Skills & Experience",
     "headline": "Let’s Explore My Technical Skills",
-    "description": "I am a MERN Stack Developer with over 2 years of hands-on experience in building scalable, responsive, and high-performance web applications. I specialize in modern frontend technologies and robust backend systems, focusing on clean code, performance optimization, and real-world solutions.",
-    "cta": "Learn More"
+    "description": "I have 2+ years of hands-on experience building responsive, scalable, and maintainable web applications. My expertise spans modern frontend architecture, reliable backend APIs, and performance-focused implementation.",
+    "cta": "View Projects"
   },
   "skills": [
     { "title": "React", "image": "/images/react.png", "percent": "90%" },
@@ -12,9 +12,9 @@
     { "title": "JavaScript", "image": "/images/javascript.png", "percent": "77%" },
     { "title": "TypeScript", "image": "/images/type.png", "percent": "67%" },
     { "title": "HTML", "image": "/images/html.png", "percent": "67%" },
-    { "title": "Node Js", "image": "/images/node.png", "percent": "77%" },
+    { "title": "Node.js", "image": "/images/node.png", "percent": "77%" },
     { "title": "MongoDB", "image": "/images/mongo.png", "percent": "65%" },
-    { "title": "Next js", "image": "/images/next.png", "percent": "85%" }
+    { "title": "Next.js", "image": "/images/next.png", "percent": "85%" }
   ]
 }
 

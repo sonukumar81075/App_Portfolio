@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import ImageModal from "../ImageModal";
 
 export default function ProjectCard({
@@ -7,6 +8,7 @@ export default function ProjectCard({
   description,
   techStack = [],
   projectUrl,
+  githubUrl,
   isReversed = false,
 }) {
   const [open, setOpen] = useState(false);
@@ -17,18 +19,25 @@ export default function ProjectCard({
 
   return (
     <>
-      <div className="grid px-2 sm:px-6 mx-auto pt-5 sm:pt-[5rem] grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-10 items-center">
+      <motion.div
+        initial={{ opacity: 0, y: 24 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 0.42 }}
+        className="grid px-2 sm:px-6 mx-auto pt-5 sm:pt-[5rem] grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-10 items-center"
+      >
         {/* Main Image */}
-        <div
+        <motion.div
           onClick={() => setOpen(true)}
-          className={`w-full p-2 sm:p-4 rounded-[18px] sm:rounded-xl cursor-pointer transition-transform duration-200 active:scale-[0.99] app-card ${isReversed ? "lg:order-2" : "lg:order-1"}`}
+          whileHover={{ y: -4 }}
+          className={`w-full p-2 sm:p-4 rounded-[18px] sm:rounded-xl cursor-pointer transition-transform duration-200 active:scale-[0.99] app-card glass-card ${isReversed ? "lg:order-2" : "lg:order-1"}`}
         >
           <img
             src={coverImage}
             alt={title}
             className="w-full h-44 sm:h-72 object-cover rounded-[14px] sm:rounded-xl"
           />
-        </div>
+        </motion.div>
 
         {/* Content */}
         <div className={isReversed ? "lg:order-1" : "lg:order-2"}>
@@ -67,8 +76,30 @@ export default function ProjectCard({
               );
             })}
           </div>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {projectUrl && (
+              <a
+                href={projectUrl}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="app-btn-primary px-3 py-2 rounded-lg text-[13px] sm:text-sm font-medium"
+              >
+                Live Demo
+              </a>
+            )}
+            {githubUrl && (
+              <a
+                href={githubUrl}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="app-card-soft px-3 py-2 rounded-lg text-[13px] sm:text-sm app-text-primary hover:text-[var(--accent)] transition-colors"
+              >
+                GitHub
+              </a>
+            )}
+          </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* Modal */}
       {open && (

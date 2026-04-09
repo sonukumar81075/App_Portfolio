@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import emailjs from "@emailjs/browser";
@@ -78,10 +79,29 @@ const Contact = () => {
   return (
     <>
       <div className="section-shell flex flex-col items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.45 }}
+          className="w-full container lg:px-12 mb-3"
+        >
+          <p className="text-[var(--accent)] text-sm font-medium uppercase tracking-[0.18em]">
+            {ContactData.title}
+          </p>
+          <h2 className="premium-section-title mt-2">{ContactData.Heading}</h2>
+        </motion.div>
         <div className="grid md:grid-cols-3 gap-4 sm:gap-8 w-full container lg:px-12 items-start">
 
           {/* LEFT PROFILE CARD */}
-          <div className="app-card p-4 sm:p-6 rounded-[18px] sm:rounded-xl border-l-[2px] border-l-[var(--accent)]">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.4 }}
+            whileHover={{ y: -4 }}
+            className="app-card glass-card p-4 sm:p-6 rounded-[18px] sm:rounded-xl border-l-[2px] border-l-[var(--accent)]"
+          >
             <img
               src={ContactData.imageUrl}
               alt="Profile"
@@ -115,10 +135,16 @@ const Contact = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* RIGHT FORM */}
-          <div className="app-card md:col-span-2 p-4 sm:p-6 rounded-[18px] sm:rounded-xl border-l-[2px] border-l-[var(--accent)]/70">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.45, delay: 0.05 }}
+            className="app-card glass-card md:col-span-2 p-4 sm:p-6 rounded-[18px] sm:rounded-xl border-l-[2px] border-l-[var(--accent)]/70"
+          >
             <Formik
               initialValues={initialValues}
               validationSchema={validationSchema}
@@ -234,7 +260,7 @@ const Contact = () => {
                 </Form>
               )}
             </Formik>
-          </div>
+          </motion.div>
 
         </div>
       </div>

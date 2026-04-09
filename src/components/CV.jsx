@@ -3,7 +3,7 @@ import projectsData from "../data/projects.json";
 
 const cvData = {
     name: "Sonu Kumar Saini",
-    role: "Mern Stack Developer",
+    role: "MERN Stack Developer",
     photo: "/images/right_image.png",
     logo: "/images/right_image.png",
     location: "Dausa - Rajasthan",
@@ -15,38 +15,38 @@ const cvData = {
         website: "https://github.com/sonukumar81075",
     },
     about:
-        "Mern Stack Developer | 1.5 Years of Experience | building high-performance web applications. Skilled in React, Next.js, Node.js, Express, and MongoDB, with strong expertise in creating secure, scalable solutions and delivering intuitive digital experiences.",
+        "MERN Stack Developer with 2+ years of experience building scalable web applications. Strong in React, Next.js, Node.js, Express, and MongoDB, with a focus on clean architecture, secure APIs, and business-focused user experiences.",
     experience: [
         {
             role: "MERN Stack Developer",
             company: "kytech digital pvt. ltd",
             duration: "July 2024 – Present working",
             summary:
-                "Developing scalable MERN applications and deploying dynamic portals with best practices. Leading code reviews, ensuring cross-browser compatibility and consistent user experience. Collaborated with design and backend teams to deliver products on time and within budget. Designed system architectures using Node.js, Next.js, and Express. Built APIs and backend services for authentication, payments, and integrations.",
+                "Developing scalable MERN products and production-grade portals using engineering best practices. Collaborating across product, design, and backend teams to deliver reliable releases. Designing Node.js and Next.js architecture, building secure APIs, and integrating authentication, payments, and third-party services.",
         },
         {
             role: "Internship · MERN Stack Developer",
             company: "Aladdin digital solutions",
             duration: "April 2024 – June 2024",
             summary:
-                "Built and maintained MERN stack applications. Created and integrated REST APIs, improving response times and reduced UI defects. Implemented secure user management and authentication. Worked on real-time data handling and payment gateway integration. Optimized database queries, improving performance. Tech: Next.js, Node.js, MongoDB, Express.",
+                "Built and maintained MERN applications with reusable UI modules and robust REST APIs. Improved response times, reduced UI defects, and implemented secure authentication and user management. Worked on real-time workflows, payment integrations, and database optimization.",
         },
     ],
     projects: [
         {
             title: "Portal · inwood Product App",
             description:
-                "Built a MERN stack e-commerce platform using Next.js. Created product catalog with filtering and searching. Implemented secure user authentication and admin dashboards. Integrated payment gateways and order tracking. Optimized SEO and performance for better visibility. Tech: Next.js, TypeScript, Tailwind CSS, Node.js, Express",
+                "Built a scalable commerce platform with product discovery, filtering, and conversion-focused flows. Delivered secure authentication, admin controls, payment integration, order tracking, and SEO/performance optimization.",
         },
         {
             title: "Nested Logistics · Inwood Product App",
             description:
-                "Created a logistics management system for handling inventory and deliveries. Built admin dashboards to track shipments, manage orders, and generate reports. Implemented role-based access control for team members. Optimized database queries to handle high data volumes efficiently. Tech: React, JavaScript, Next.js, Node, Express",
+                "Designed a logistics management system for inventory and delivery operations. Built dashboards for shipment tracking, order control, and reporting, with role-based access and optimized query performance for high-volume data.",
         },
         {
             title: "Stop Delay App",
             description:
-                "Built a React app for flight delay claims. Helps optimize risk management, enhancing call center efficiency. Handles big volumes of travel claims across multiple languages. Implemented conversion-focused design with strong CTAs. Tech: React, JavaScript, Tailwind CSS, Node, Express",
+                "Developed a multilingual claims product for flight-delay compensation with conversion-focused UX and clear CTAs. Improved intake quality and call-center efficiency through structured claim workflows.",
         },
     ],
     skills: {
@@ -83,7 +83,7 @@ const cvData = {
         { name: "English", level: "Conversational" },
     ],
     hobbies:
-        "Cricket, fitness-focused, continuous skill improvement.",
+        "Cricket, fitness, and continuous learning.",
     cvLink: "/downloads/sonu.pdf.pdf",
 };
 

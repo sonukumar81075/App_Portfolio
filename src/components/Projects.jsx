@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import ProjectCard from "./helper/ProjectCard";
 import projectsData from "../data/projects.json";
 
@@ -9,17 +10,21 @@ export default function Project() {
   return (
     <div className="section-shell w-full md:py-24">
       <div className="container lg:px-12 mx-auto">
-        {/* <div className="container lg:px-12 mx-auto text-center">
-          <h3 className="text-yellow-500 text-sm font-semibold uppercase">
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.45 }}
+          className="mb-3 sm:mb-6"
+        >
+          <p className="text-[var(--accent)] text-sm font-medium uppercase tracking-[0.18em]">
             {header?.eyebrow}
-          </h3>
-          <h2 className="text-4xl font-bold 2xl:mt-2 mb-[10px]">{header?.title}</h2>
+          </p>
+          <h2 className="premium-section-title mt-2">{header?.title}</h2>
           {header?.description && (
-            <p className="text-white/70 max-w-3xl mx-auto mt-3 leading-relaxed">
-              {header.description}
-            </p>
+            <p className="premium-section-subtitle max-w-3xl mt-2">{header.description}</p>
           )}
-        </div> */}
+        </motion.div>
 
         {items?.map((project, index) => (
           <ProjectCard

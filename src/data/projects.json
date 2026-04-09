@@ -1,14 +1,14 @@
 {
   "header": {
     "eyebrow": "Recent Work",
-    "title": "projects",
-    "description": "Selected builds crafted for smooth UX, responsive layouts, and clean presentation."
+    "title": "Projects",
+    "description": "Selected production-focused builds that combine business outcomes, scalable architecture, and clean user experience."
   },
   "items": [
     {
       "id": "project-1",
-      "title": "Freelancer Project Bidding Platform",
-      "description": "I built a modern freelance marketplace web application that allows clients to post projects and freelancers to browse and place bids. The platform features a clean dashboard, structured project listings, and a responsive user interface focused on usability and performance. Built using modern frontend technologies with scalability in mind.",
+      "title": "Bidvoty · Freelancer Bidding Platform",
+      "description": "Built a marketplace where clients post projects and freelancers submit bids with role-based workflows. Implemented structured listing pages, project-detail flows, bid management, and responsive dashboards to improve engagement and conversion.",
       "projectUrl": "https://app.bidvoty.space/",
       "techStack": [
         { "name": "React", "url": "https://react.dev" },
@@ -31,7 +31,7 @@
     {
       "id": "project-2",
       "title": "Neoteric Properties",
-      "description": "I built a modern real estate website that allows users to browse properties, view details, and contact agents. The platform features a clean dashboard, structured property listings, and a responsive user interface focused on usability and performance. Built using modern frontend technologies with scalability in mind.",
+      "description": "Developed a real-estate platform for property discovery, filtering, detail pages, and lead capture. Improved listing readability, mobile responsiveness, and page-level performance to support better user retention and inquiry quality.",
       "projectUrl": "https://neotericproperties.in/",
       "techStack": [
         { "name": "React", "url": "https://react.dev" },
@@ -54,7 +54,7 @@
     {
       "id": "project-3",
       "title": "CarringAI Clinic Dashboard",
-      "description": "Clinic command center with booking queues, assessment scheduling, and HIPAA-aware patient/doctor management. Includes dashboard KPIs, queue status, and quick actions for assessments and reporting.",
+      "description": "Engineered a clinic operations dashboard with appointment queues, assessment scheduling, and HIPAA-aware patient-provider workflows. Added KPI visibility, status tracking, and quick operational actions to improve day-to-day efficiency.",
       "projectUrl": "https://caringai.bidvoty.space",
       "techStack": [
         { "name": "Next.js", "url": "https://nextjs.org" },
@@ -80,7 +80,7 @@
     {
       "id": "project-4",
       "title": "StopDelay · Flight Compensation",
-      "description": "Landing and intake flow for airline delay/cancellation compensation. Spanish-first UX, clear hero CTA, eligibility inputs, and trust badges for EC261/Montreal compliance to boost conversions.",
+      "description": "Built conversion-driven landing and intake journeys for airline delay/cancellation claims. Delivered Spanish-first UX, clear eligibility flow, trust signals for EC261/Montreal compliance, and high-clarity CTAs for stronger lead conversion.",
       "projectUrl": "https://www.stopdelay.com/en",
       "techStack": [
         { "name": "Next.js", "url": "https://nextjs.org" },

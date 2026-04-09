@@ -6,10 +6,15 @@ export const HeroSectionData = {
   'titleEnd': " a MERN Stack Developer",
 
   'description':
-    "I am a passionate MERN Stack Developer with 2+ years of experience in building modern, scalable, and high-performance web applications. I specialize in crafting seamless user experiences and robust backend systems using MongoDB, Express.js, React.js, and Node.js. I focus on clean code, performance optimization, and delivering real-world solutions that create impact.",
+    "I am a MERN Stack Developer with 2+ years of experience delivering scalable, high-performance web applications. I build production-ready products with MongoDB, Express.js, React.js, and Node.js, with a strong focus on clean architecture, performance, and measurable business outcomes.",
+  'highlights': [
+    "2+ years building client-facing web products",
+    "Production-ready MERN architecture and APIs",
+    "Performance and UX focused implementation"
+  ],
 
-  'facebookicon': "Find with me",
-  'figmaicon': "Best skill on",
+  'facebookicon': "Find me on",
+  'figmaicon': "Core tools",
 };
 
 
